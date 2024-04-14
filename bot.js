@@ -4,7 +4,7 @@ const pathfinder = require('mineflayer-pathfinder').pathfinder;
 const { GoalBlock, GoalXZ } = require('mineflayer-pathfinder').goals;
 
 const config = require('./settings.json');
-
+const keep_alive = require('./keep_alive.js')
 const loggers = require('./logging.js');
 const logger = loggers.logger;
 
